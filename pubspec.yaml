@@ -1,0 +1,23 @@
+name: qr_scanner
+description: "QR & Barcode Scanner App with History Feature"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  mobile_scanner: ^4.0.1
+  url_launcher: ^6.3.0
+  permission_handler: ^11.3.1
+  shared_preferences: ^2.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
